@@ -7,7 +7,7 @@ lower = int(input("Enter Lower bound:- "))
 upper = int(input("Enter Upper bound:- "))
 
 # generating random number between
-# the lower and upper
+# the lower and uppe
 x = random.randint(lower, upper)
 print("\n\tYou've only ", 
 	round(math.log(upper - lower + 1, 2)),
